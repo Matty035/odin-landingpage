@@ -14,11 +14,33 @@ body {
 .navbar {
     display: flex;
     flex: 1 0 0;
+    justify-content: space-between;
     background-color: #1f2937;
+    min-height: ;
    
 }
 
 .header {
     font-size: 24px;
     color: white;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-right: 20px;
+    gap: 20px;
+    
+}
+
+li{
+    color: white;
+    text-decoration: none;
+}
+
+li:hover {
+    color: gray;
 }
