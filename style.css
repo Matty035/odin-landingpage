@@ -91,3 +91,28 @@ button {
 h1, p {
     margin-bottom: 10px;
 }
+.subheader{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.subheader p {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight:bolder;
+}
+.boxes{
+    display: flex;
+
+
+}
+
+.box {
+    border-radius: 8px 16px;
+    width: 250px;
+    height: 250px;
+    border-color: #3882f6;
+    background-color: white;
+    flex: 1;
+    text-align: center;
+}
