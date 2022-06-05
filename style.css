@@ -44,3 +44,50 @@ li{
 li:hover {
     color: gray;
 }
+
+
+.container{
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.container h1 {
+    color: white;
+    font-size: 48px;
+}
+
+.container p {
+    font-size: 18px;
+    color: white;
+}
+
+.container img {
+    max-width: 500px;
+    max-height: 250px;;
+    margin-right: 40px;
+    padding: 20px;
+}
+
+.info {
+    
+    margin-left: 20px;
+    padding: 20px;
+    max-width: 50%;
+    
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border: 1px solid royalblue;
+    border-radius: 8px;
+    padding: 8px 16px;
+
+}
+
+h1, p {
+    margin-bottom: 10px;
+}
